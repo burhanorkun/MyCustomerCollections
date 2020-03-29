@@ -6,6 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        MyHashMapTest();
+    }
+
+    private static void MyHashMapTest() {
         MyHashMap<String, String> map = new MyHashMap<>();
         map.put("1", "bir");
         map.put("2", "iki");
